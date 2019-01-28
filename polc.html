@@ -1,0 +1,98 @@
+<!-- Write your HTML in this file -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sociology Project</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #BB91E5;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>The 2008 Financial Crisis</h2><img src="https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/09/04/105432147-1536095391564gettyimages-104396071.530x298.jpeg?v=1536931540">
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">The Newspaper</a></li>
+      <li><a href="news.html">News on the Internet</a></li>
+      <li><a href="tv.html">Television News</a></li>
+       <li><a href="polc.html">Political Cartoons</a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <h1>Political Cartoons</h1>
+    <h4>Individual</h4>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <img src="https://cdn.static-economist.com/sites/default/files/images/articles/migrated/D3808WW0.jpg" width="350" height="250">
+   <img src= "http://www.theeditorialcartoons.com/properties/luckovich/art_images/lk1081010_lr.jpg" width="350" height="250">
+    <h4>Society</h4>
+    <p>society</p>
+  <img src="https://www.conservapedia.com/images/thumb/5/58/CRASH08.JPG/330px-CRASH08.JPG" width="350" height="250">
+  <img src="http://www.theeditorialcartoons.com/properties/luckovich/art_images/lk1070813d_lr.jpg" width="350" height="250">
+  </article>
+
+<div id="footer">
+   <center><p>&copy; Mariana Antaya</p></center> 
+</div>
+
+</body>
+</html>
